@@ -1,7 +1,24 @@
 aid: grana
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/grana.png
 name: Grana
-description: Grana is a company surfaced as a portfolio company of 500-global and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Grana was a Hong Kong-based direct-to-consumer fashion brand founded in October 2014
+  by Luke Grana and Pieter-Paul Wittgen, selling premium wardrobe basics made from directly-sourced
+  fabrics — Peruvian pima cotton, Chinese silk, Japanese denim, European linen, cashmere, merino and
+  baby alpaca — online without retail middlemen. It raised roughly US$16M across seed and Series A rounds
+  from investors including Alibaba's Hong Kong Entrepreneurs Fund, 500 Startups (now 500 Global),
+  Golden Gate Ventures, MindWorks Ventures and the Bluebell Group. The company has since wound down;
+  grana.com now resolves to a parked domain with no live storefront, developer program, or public API.
 url: https://raw.githubusercontent.com/api-evangelist/grana/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +26,20 @@ x-backed-by:
 - 500-global
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: defunct
+x-domain-status: parked
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Fashion
+- Apparel
+- E-Commerce
+- Direct-to-Consumer
+- Retail
+- Consumer
+- Hong Kong
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +47,12 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/grana-domain-security.yml
 - type: Website
   url: https://grana.com
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
