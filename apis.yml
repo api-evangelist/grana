@@ -41,7 +41,7 @@ x-status: defunct
 x-domain-status: parked
 specificationVersion: '0.23'
 created: '2026-07-17'
-modified: '2026-09-15'
+modified: '2026-09-16'
 tags:
 - Company
 - Fashion
@@ -51,6 +51,7 @@ tags:
 - Retail
 - Consumer
 - Hong Kong
+- Defunct
 tags_raw:
 - Company
 - Fashion
@@ -60,6 +61,7 @@ tags_raw:
 - Retail
 - Consumer
 - Hong Kong
+- Defunct
 apis: []
 maintainers:
 - FN: Kin Lane
