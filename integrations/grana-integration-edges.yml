@@ -1,0 +1,16 @@
+generated: '2026-10-12'
+method: none
+source:
+- https://zapier.com/apps/grana/integrations
+- https://n8n.io/integrations/grana/
+- https://composio.dev/toolkits/grana
+- https://monid.ai/tools/grana
+checked:
+- https://composio.dev/toolkits/grana
+- https://monid.ai/tools/grana
+- https://n8n.io/integrations/grana/
+- https://zapier.com/apps/grana/integrations
+summary: null
+marketplace_apps: []
+edges: []
+templates: []
